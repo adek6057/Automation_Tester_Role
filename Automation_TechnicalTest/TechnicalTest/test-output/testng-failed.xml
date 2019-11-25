@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestAutomation.TechnicalTest.NewUser_Registration">
+        <methods>
+          <include name="Lauch_Url_for_Registration"/>
+          <include name="New_Registration"/>
+        </methods>
+      </class> <!-- TestAutomation.TechnicalTest.NewUser_Registration -->
+      <class name="TestAutomation.TechnicalTest.UserLogin_WithValid_ID_AddToCart">
+        <methods>
+          <include name="Lauch_Url_ForLogin_AddToCart"/>
+        </methods>
+      </class> <!-- TestAutomation.TechnicalTest.UserLogin_WithValid_ID_AddToCart -->
+      <class name="TestAutomation.TechnicalTest.UserLogin_With_InValid">
+        <methods>
+          <include name="Lauch_Url"/>
+          <include name="UserLogin_With_InValid_UserID"/>
+        </methods>
+      </class> <!-- TestAutomation.TechnicalTest.UserLogin_With_InValid -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

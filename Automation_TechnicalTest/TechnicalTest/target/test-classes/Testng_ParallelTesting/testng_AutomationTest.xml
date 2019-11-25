@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestAutomation.TechnicalTest.UserLogin_With_InValid"/>
+      <class name="TestAutomation.TechnicalTest.NewUser_Registration"/>
+      <class name="TestAutomation.TechnicalTest.UserLogin_WithValid_ID_AddToCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
